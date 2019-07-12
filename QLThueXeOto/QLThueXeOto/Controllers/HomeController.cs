@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using QLThueXeOto.Models;
 
 namespace QLThueXeOto.Controllers
 {
@@ -10,9 +11,10 @@ namespace QLThueXeOto.Controllers
     {
         //
         // GET: /Home/
+        QuanLyThueXeOtoEntities db = new QuanLyThueXeOtoEntities();
         public ActionResult Index()
         {
-            return View();
+            return View(db.Xes.ToList());
         }
 	}
 }

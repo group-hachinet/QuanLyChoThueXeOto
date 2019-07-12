@@ -8,8 +8,9 @@
 .header{
 	width: 100%;
 	background-color: #B06010;
-	padding: :10px 0;
+	padding: 10px 0;
 	height: 30px;
+    text-align:center;
 }
 .header-content{
     float:left;
@@ -114,6 +115,37 @@
     text-align: center;
 }
 .QuangCao img{
-    width: 85%;
+    width: 90%;
     height: 450px;
 }
+/* Css Body*/
+#divBody{
+    width:90%;
+    margin-left:5%;
+    text-align:center;
+}
+#SanPham{
+    float:left;
+    width:300px;
+    text-align:center;
+    margin-left:10px;
+    margin-top:-15px;
+}
+#SanPham img{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+#BienSo{
+    color:#ff6a00;
+    font-size:25px;
+}
+#divBody a{
+    float:right;
+    text-decoration:none;
+    color: black;
+}
+#divBody a:hover{
+    color:#ff6a00;
+}
+/*End Body*/
+
