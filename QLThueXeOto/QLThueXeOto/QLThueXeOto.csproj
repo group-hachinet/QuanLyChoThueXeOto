@@ -20,6 +20,8 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -247,6 +249,12 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="HinhAnh\a11.png" />
+    <Content Include="HinhAnh\a112.png" />
+    <Content Include="HinhAnh\a113.png" />
+    <Content Include="HinhAnh\a114.png" />
+    <Content Include="HinhAnh\a115.png" />
+    <Content Include="HinhAnh\a116.png" />
     <Content Include="HinhAnh\xe4.jpg" />
     <Content Include="HinhAnh\xe5.jpg" />
     <Content Include="Scripts\bootstrap.js" />
