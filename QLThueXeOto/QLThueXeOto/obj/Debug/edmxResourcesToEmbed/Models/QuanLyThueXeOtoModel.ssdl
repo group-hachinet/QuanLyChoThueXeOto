@@ -145,6 +145,7 @@
     <Property Name="MoTa" Type="nvarchar" MaxLength="50" />
     <Property Name="TinhTrang" Type="nvarchar" MaxLength="25" />
     <Property Name="HinhAnh" Type="char" MaxLength="50" />
+    <Property Name="GiaThue" Type="int" />
   </EntityType>
   <EntityType Name="XeRa">
     <Key>

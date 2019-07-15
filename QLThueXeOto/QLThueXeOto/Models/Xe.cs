@@ -29,6 +29,7 @@ namespace QLThueXeOto.Models
         public string MoTa { get; set; }
         public string TinhTrang { get; set; }
         public string HinhAnh { get; set; }
+        public Nullable<int> GiaThue { get; set; }
     
         public virtual ICollection<Dong_HDTT> Dong_HDTT { get; set; }
         public virtual ICollection<SoXe> SoXes { get; set; }

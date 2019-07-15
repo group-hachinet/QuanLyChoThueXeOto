@@ -7,14 +7,14 @@ using QLThueXeOto.Models;
 
 namespace QLThueXeOto.Controllers
 {
-    public class HomeController : Controller
+    public class ToanBoXeController : Controller
     {
         //
-        // GET: /Home/
+        // GET: /ToanBoXe/
         QuanLyThueXeOtoEntities db = new QuanLyThueXeOtoEntities();
-        public ActionResult Index()
+        public ActionResult ToanBoXe()
         {
-            return View(db.Xes.Take(8).ToList());
+            return View(db.Xes.ToList());
         }
 	}
 }

@@ -169,6 +169,7 @@
     <NavigationProperty Name="SuaChuas" Relationship="Self.FK_SuaChua_Xe" FromRole="Xe" ToRole="SuaChua" />
     <NavigationProperty Name="XeRas" Relationship="Self.FK_XeRa_Xe" FromRole="Xe" ToRole="XeRa" />
     <NavigationProperty Name="XeVaos" Relationship="Self.FK_XeVao_Xe" FromRole="Xe" ToRole="XeVao" />
+    <Property Name="GiaThue" Type="Int32" />
   </EntityType>
   <EntityType Name="XeRa">
     <Key>

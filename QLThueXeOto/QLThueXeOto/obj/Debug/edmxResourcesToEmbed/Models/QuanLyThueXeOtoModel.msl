@@ -143,6 +143,7 @@
     <EntitySetMapping Name="Xes">
       <EntityTypeMapping TypeName="QuanLyThueXeOtoModel.Xe">
         <MappingFragment StoreEntitySet="Xe">
+          <ScalarProperty Name="GiaThue" ColumnName="GiaThue" />
           <ScalarProperty Name="MaXe" ColumnName="MaXe" />
           <ScalarProperty Name="MaLoaiXe" ColumnName="MaLoaiXe" />
           <ScalarProperty Name="BienSo" ColumnName="BienSo" />
